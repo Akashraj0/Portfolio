@@ -48,7 +48,7 @@ const Contact = () => {
                     <input type='email' placeholder='Enter your email'></input>
                 </div>
                 <div className='label'>
-                    <textarea placeholder='share your thoughts' rows={7} cols={30}></textarea>
+                    <textarea placeholder='share your thoughts' rows={7} cols={29}></textarea>
                 </div>
                 <div className='label-button'>
                     <button>Submit</button>
