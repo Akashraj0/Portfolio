@@ -66,7 +66,7 @@
     width: 100%;
     margin: 1rem auto;
 }
-.label textarea{
+.label1 textarea{
     border:2px solid black;
     border-radius: 10px;
     color: black;
@@ -105,13 +105,10 @@
         margin-bottom: 0.4rem;
         margin-left: 24%;
     }
-    .label textarea{
+    .label1 textarea{
         margin-left: 12%;
     }
     .label-button{
         max-width: 30%;
-    }
-    .label textarea{
-        padding: 0rem;
     }
 }
