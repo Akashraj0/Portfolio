@@ -102,3 +102,18 @@
         max-width: 30%;
     }
 }
+@media screen and (max-width: 450px) {
+    .label input{
+        width: 50%;
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+        margin-left: 24%;
+    }
+    .label textarea{
+        padding: 0rem;
+        margin-left: 12%;
+    }
+    .label-button{
+        max-width: 30%;
+    }
+}
