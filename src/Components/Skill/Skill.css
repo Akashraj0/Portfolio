@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+.skill-section{
+    width: 80%;
+    margin: 15rem auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.skill-heading{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin:2rem auto;
+}
+.skill-heading1{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin:3rem auto;
+}
+.Skills{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    color: white;
+}
+.skill-box1{
+    border: 2px solid white;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    overflow:hidden;
+    transition: 0s;
+    border-radius: 20px;
+}
+.skill-box1:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transform: translate3d(5px,5px,5px);
+}
+.skill-box2:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    transform: translate3d(5px,5px,5px);
+}
+.skill-box2{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.skill-flex{
+    display : grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:10px;
+}
+.skill-flex > h4{
+    padding: 1rem;
+}
+.skill-detail{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+}
+span p{
+    font-size: 10px;
+    margin: 5px auto;
+}
+@media screen and (max-width: 800px) {
+    .skill-heading1{
+        font-size: 30px;
+    }
+    .Skills{
+        grid-template-columns:1fr;
+        width: 90%;
+    }
+    .skill-box1{
+        width: 100%;
+    }
+    .skill-box2{
+        width: 100%;
+    }
+}

@@ -1,0 +1,39 @@
+.about{
+    width: 60%;
+    margin-top: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+.heading{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 0.4rem;
+}
+.heading1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 0.4rem;
+}
+@media screen and (max-width: 800px) {
+    .about{
+        margin-top: 0%;
+        width: 90%;
+    }
+    .about-content{
+        padding-top: 18rem;
+    }
+    .heading{
+        font-size: 10px;
+        font-weight: bolder;
+        color: white;
+    }
+    .heading1{
+        font-size: 40px;
+        font-weight: bolder;
+        color: white;
+    }
+}
