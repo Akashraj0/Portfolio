@@ -67,6 +67,7 @@
     margin: 1rem auto;
 }
 .label1 textarea{
+    width: 100%;
     border:2px solid black;
     border-radius: 10px;
     color: black;
@@ -94,6 +95,12 @@
     .label input{
         width: 100%;
     }
+    .label1 textarea{
+        width: 70%;
+        border:2px solid black;
+        border-radius: 10px;
+        color: black;
+    }
     .label-button{
         max-width: 30%;
     }
@@ -106,6 +113,7 @@
         margin-left: 24%;
     }
     .label1 textarea{
+        width: 75%;
         margin-left: 12%;
     }
     .label-button{
