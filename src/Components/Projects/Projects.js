@@ -14,22 +14,22 @@ const project = [
     getImageSrc: () => require("../Image/Little-Lemon.jpg"),
     description1:"Little Lemon Restuarant Website is used to order food online and reserve table for dinning for special occasion the menu has wide range of italian cuisine and user can easily add it to cart and order it",
     heading:"Restuarant App",
-    url:"https://akashraj0.github.io/CarRental/",
-    url1:"https://github.com/Akashraj0/CarRental"
+    url:"https://akashraj0.github.io/Restaurant/",
+    url1:"https://github.com/Akashraj0/Restaurant.git"
   },
   {
     getImageSrc: () => require("../Image/Figma.jpg"),
     description1:"A High fedility Prototype is designed from wired frame to high fedelity prototype for Little Lemon Restuarant which holds the brand value and The user experience tested by prototyping.",
     heading:"UX/UI Design",
-    url:"https://akashraj0.github.io/CarRental/",
-    url1:"https://github.com/Akashraj0/CarRental"
+    url:"https://www.figma.com/file/HsbuYfDWYE9iImL6iiy9qQ/Final-Project?type=design&nodeid=0%3A1&t=M9Syhr6YQ6YdJAHQ-1j",
+    url1:"https://www.figma.com/file/HsbuYfDWYE9iImL6iiy9qQ/Final-Project?type=design&nodeid=0%3A1&t=M9Syhr6YQ6YdJAHQ-1j"
   },
   {
     getImageSrc: () => require("../Image/Screenshot (89).png"),
     description1:"An responsive Task manager website Built using Chakra UI Component Library with React Framework.The whole application is built using Chakra UI Components.",
     heading:"Task Manager",
-    url:"https://akashraj0.github.io/CarRental/",
-    url1:"https://github.com/Akashraj0/CarRental"
+    url:"https://taskmanager5.netlify.app/",
+    url1:"https://github.com/Akashraj0/Task-Manager.git"
   },
 ];
 
