@@ -23,7 +23,7 @@ const Footer = () => {
         <a href="https://wa.me/7339227208"><FontAwesomeIcon className="font" icon={faSquareTwitter} size="2x" /></a> 
         <a href="https://wa.me/7339227208"><FontAwesomeIcon className="font" icon={faTelegram} size="2x" /></a>
         </div>
-        <div>
+        <div className='footer-end'>
           <h1>©Akashraj.All Rights reserved</h1>
         </div>
       </div>

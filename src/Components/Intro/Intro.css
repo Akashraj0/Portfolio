@@ -20,7 +20,6 @@
     font-weight: bolder;
     width: 70%;
     margin: 3rem auto;
-    text-align:justify;
 }
 .intro-para > img{
     width: 5%;
@@ -39,6 +38,5 @@
         font-weight: bolder;
         width: 70%;
         margin: 3rem auto;
-        text-align:justify;
     }
 }
