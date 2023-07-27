@@ -4,6 +4,13 @@ import './Projects.css'
 
 const project = [
   {
+    getImageSrc: () => require("../Image/Netflix.png"),
+    description1:"Netflix Clone is streaming platform which has wide variety movies in different genres and it also have user authentication using firebase and the movies are fetched from tmtb database using axios.",
+    heading:"Netflix Clone",
+    url:"https://netflix-clone-73973.web.app/",
+    url1:"https://github.com/Akashraj0/Netflix-Clone.git"
+  },
+  {
     getImageSrc: () => require('../Image/Rentalcar.jpg'),
     description1:"A car rental Website is an online platform that allow users to rent car for personal or business use The Website provides an interface for price comparison and reserving. ",
     heading:"car rental app",
@@ -16,13 +23,6 @@ const project = [
     heading:"Restuarant App",
     url:"https://akashraj0.github.io/Restaurant/",
     url1:"https://github.com/Akashraj0/Restaurant.git"
-  },
-  {
-    getImageSrc: () => require("../Image/Figma.jpg"),
-    description1:"A High fedility Prototype is designed from wired frame to high fedelity prototype for Little Lemon Restuarant which holds the brand value and The user experience tested by prototyping.",
-    heading:"UX/UI Design",
-    url:"https://www.figma.com/file/HsbuYfDWYE9iImL6iiy9qQ/Final-Project?type=design&nodeid=0%3A1&t=M9Syhr6YQ6YdJAHQ-1j",
-    url1:"https://www.figma.com/file/HsbuYfDWYE9iImL6iiy9qQ/Final-Project?type=design&nodeid=0%3A1&t=M9Syhr6YQ6YdJAHQ-1j"
   },
   {
     getImageSrc: () => require("../Image/Screenshot (89).png"),
