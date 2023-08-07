@@ -4,6 +4,13 @@ import './Projects.css'
 
 const project = [
   {
+    getImageSrc: () => require("../Image/Rate.png"),
+    description1:"This Online platform build using react. This platform Provides data of currency exchange rate.This application fetches data from API and gives current exchange price, It also as a feature of converting currency value and graph to analyze value difference .",
+    heading:"RateX",
+    url:"https://ratex0.netlify.app/",
+    url1:"https://github.com/Akashraj0/RateX.git"
+  },
+  {
     getImageSrc: () => require("../Image/Netflix.png"),
     description1:"Netflix Clone is streaming platform which has wide variety movies in different genres and it also have user authentication using firebase and the movies are fetched from tmtb database using axios.",
     heading:"Netflix Clone",
@@ -16,13 +23,6 @@ const project = [
     heading:"car rental app",
     url:"https://akashraj0.github.io/CarRental/",
     url1:"https://github.com/Akashraj0/CarRental"
-  },
-  {
-    getImageSrc: () => require("../Image/Little-Lemon.jpg"),
-    description1:"Little Lemon Restuarant Website is used to order food online and reserve table for dinning for special occasion the menu has wide range of italian cuisine and user can easily add it to cart and order it",
-    heading:"Restuarant App",
-    url:"https://akashraj0.github.io/Restaurant/",
-    url1:"https://github.com/Akashraj0/Restaurant.git"
   },
   {
     getImageSrc: () => require("../Image/Screenshot (89).png"),
